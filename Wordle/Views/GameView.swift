@@ -55,6 +55,7 @@ struct GameView: View {
                                 
                             } label: {
                                 Image(systemName: "questionmark.circle")
+                                    .foregroundColor(Color.correct)
                             }
                         }
                         
@@ -75,12 +76,14 @@ struct GameView: View {
                                 }
                             } label: {
                                 Image(systemName: "chart.bar")
+                                    .foregroundColor(Color.correct)
                             }
                             
                             Button {
                                 showSettings.toggle()
                             } label: {
                                 Image(systemName: "gearshape.fill")
+                                    .foregroundColor(Color.correct)
                             }
                             
                             

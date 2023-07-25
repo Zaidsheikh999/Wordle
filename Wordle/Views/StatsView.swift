@@ -77,7 +77,7 @@ struct StatsView: View {
         .frame(width: 320, height: 370)
         .background(RoundedRectangle(cornerRadius: 15).fill(Color.systemBackground))
         .padding()
-        .shadow(color: .black.opacity(0.3), radius: 10)
+        .shadow(color: .primary.opacity(0.2), radius: 10)
         .offset(y: -70)
     }
 }
