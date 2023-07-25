@@ -21,6 +21,17 @@ struct SettingView: View {
                 }
                 .pickerStyle(.segmented)
                 Spacer()
+                Spacer()
+                
+                HStack{
+                    Text("Developed By")
+                        .foregroundColor(Color.gray)
+                        .font(.system(size: 10))
+                    Text("Zaid Sheikh")
+                        .foregroundColor(.primary)
+                        .font(.system(size: 12))
+                        .fontWeight(.bold)
+                }
             }
             .padding()
             .navigationTitle("Options")
